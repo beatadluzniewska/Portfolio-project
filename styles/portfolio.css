@@ -94,6 +94,8 @@ p {
 }
 a {
     color: var(--branding-color);
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
 }
 a:visited {
     color: var(--branding-color);
@@ -108,6 +110,37 @@ a:hover {
     border-radius: 4px;
     padding: 30px;
     background-color: #eae6e6;
+}
+nav {
+    background-color: white;
+    padding: 10px 10px;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li.active a {
+    color: black;
+}
+
+div.logo {
+    padding: 0 2px;
+    border: 2px solid var(--branding-color);
+    transition: transform 0.7s ease-in-out;
+}
+div.logo div {
+    transition: transform 0.7s ease-in-out;
+}
+div.logo:hover {
+    transform: rotate(360deg);
+}
+div.logo:hover div {
+    transform: rotate(-360deg);
 }
 
 @media (max-width: 960px) {
@@ -140,5 +173,8 @@ a:hover {
     .btn-branding,
     .btn-branding-outline {
         font-size: 12px;
+    }
+    nav a {
+        font-size: 14px;
     }
 }
