@@ -53,7 +53,7 @@ p {
     line-height: 2;
 }
 .content-container {
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 /* .content-container h1 {
@@ -94,6 +94,20 @@ p {
     line-height: 27px;
     padding: 12px 20px;
 }
+.btn-branding-outline-header {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+}
+a.btn-branding-outline-header {
+    color: var(--primary-color);
+}
+a.btn-branding-outline-header:visited {
+    color: var(--primary-color);
+}
 
 .project-description {
     padding: 120px 60px;
@@ -103,6 +117,7 @@ a {
     text-decoration: none;
     transition: all 100ms ease-in-out;
 }
+
 a:visited {
     color: var(--branding-color);
 }
@@ -137,7 +152,7 @@ footer .social-link:hover {
 .contact-footer {
     background: radial-gradient(
         circle,
-        rgb(236, 236, 236) 10%,
+        rgb(251, 247, 236) 10%,
         rgba(255, 255, 255, 1) 100%
     );
 }
@@ -183,6 +198,12 @@ footer.email-link:hover {
     color: var(--branding-color);
 }
 
+footer .credits,
+footer .credits a {
+    text-align: center;
+    font-size: 10px;
+}
+
 @media (max-width: 960px) {
     h1 {
         font-size: 30px;
@@ -190,7 +211,7 @@ footer.email-link:hover {
     h2 {
         font-size: 28px;
     }
-    h4 {
+    h3 {
         font-size: 18px;
     }
     .project-description,
@@ -215,8 +236,9 @@ footer.email-link:hover {
         font-size: 14px;
     }
     .btn-branding,
-    .btn-branding-outline {
-        font-size: 12px;
+    .btn-branding-outline,
+    .btn-branding-outline-header {
+        font-size: 14px;
     }
     a {
         font-size: 14px;
@@ -226,5 +248,10 @@ footer.email-link:hover {
     }
     .about-me {
         margin-bottom: 10px;
+    }
+    footer .credits,
+    footer .credits a {
+        text-align: center;
+        font-size: 8px;
     }
 }
