@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif; */
     --branding-color-faded: #d4d4d4;
     --primary-color: #242424;
     --secondary-color: #eae6e6;
-    --heading-font-family: "Playfair Display", serif;
+    --heading-font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --default-font-family: "Poppins", sans-serif;
 }
 
@@ -23,7 +23,7 @@ h4 {
 }
 
 h2 {
-    font-size: 62px;
+    font-size: 48px;
 }
 p {
     font-size: 16px;
@@ -80,10 +80,17 @@ p {
     margin: 20px;
 }
 
+.logos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .btn-branding {
-    background: var(--branding-color);
-    border-radius: 4px;
+    border: 1px solid var(--primary-color);
     color: white;
+    background-color: var(--primary-color);
+    border-radius: 22px;
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
@@ -91,12 +98,8 @@ p {
 
 .btn-branding:hover {
     background: white;
-    border: 1px solid var(--branding-color);
-    border-radius: 4px;
-    color: var(--branding-color);
-    font-size: 18px;
-    line-height: 27px;
-    padding: 12px 20px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .btn-branding-outline {
@@ -110,20 +113,15 @@ p {
 .btn-branding-outline-header {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    border-radius: 4px;
+    border-radius: 22px;
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
 }
 
 .btn-branding-outline-header:hover {
-    border: 1px solid var(--primary-color);
     color: white;
     background-color: var(--primary-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 12px 20px;
 }
 
 a.btn-branding-outline-header {
@@ -138,7 +136,7 @@ a.btn-branding-outline-header {
 }
 
 a {
-    color: var(--branding-color);
+    color: var(--primary-color);
     text-decoration: none;
     transition: all 100ms ease-in-out;
 }
@@ -147,22 +145,18 @@ a {
     color: var(--branding-color);
 } */
 a:hover {
-    color: black;
+    color: blue;
 }
 .contact-me {
     text-align: center;
 }
 footer .social-link {
-    background: #f6f6f6;
-    padding: 8px 10px;
     margin: 5px;
-    border-radius: 50%;
-    font-size: 18px;
+    font-size: 22px;
     transition: all 150ms ease-in-out;
 }
 footer .social-link:hover {
-    color: white;
-    background-color: var(--branding-color);
+    color: blue;
 }
 .contact {
     border-radius: 4px;
@@ -170,14 +164,14 @@ footer .social-link:hover {
     padding: 30px;
     background: radial-gradient(
         circle,
-        rgba(255, 243, 210, 1) 10%,
+        rgba(239, 239, 239) 10%,
         rgba(255, 255, 255, 1) 100%
     );
 }
 .contact-footer {
     background: radial-gradient(
         circle,
-        rgb(251, 247, 236) 10%,
+        rgba(239, 239, 239) 10%,
         rgba(255, 255, 255, 1) 100%
     );
 }
@@ -219,6 +213,12 @@ img.picture {
     border-radius: 50%;
     max-width: 50%;
 }
+
+.hero img.picture {
+    border-radius: 50%;
+    max-width: 6%;
+}
+
 footer.email-link:hover {
     color: var(--branding-color);
 }
@@ -318,5 +318,8 @@ footer .credits a {
     }
     .typing-container p {
         font-size: 18px;
+    }
+    .hero img.picture {
+        max-width: 18%;
     }
 }

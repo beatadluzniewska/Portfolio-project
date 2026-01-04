@@ -2,7 +2,7 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = [
-    "a UX Designer",
+    "a UX Designer at Boeing",
     "a Junior Full Stack Developer",
     "a former Architect",
 ];
