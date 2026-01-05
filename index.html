@@ -33,27 +33,31 @@
       <li class="active"><a href="/" title="Homepage">Home</a></li>
       <li><a href="/#about-me" title="About me">About</a></li>
       <li><a href="/#work" title="my work">Work</a></li>
-      <li><a href="/contact.html" title="Contact me">Contact</a></li>
+      <li><a href="/#contact" title="Contact me">Contact</a></li>
     </ul>
   </nav>
   <div class="hero">
     <img src="images/BeataDluzniewskaImage.jpg" alt="Beata's picture" class="img-fluid picture mb-3" />
     <p>Hi, my name is</p>
-    <h1>Beata</h1>
+    <h1>Beata Dluzniewska</h1>
     <h2 class="p-4">
       <div class="typing-container">
         <p>I am <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
       </div>
     </h2>
-    <a href="/contact.html" class="btn btn-branding-outline-header">contact me </a>
+    <a href="/#contact" class="btn btn-branding-outline-header">contact me </a>
   </div>
 
   <div class="container" id="about-me">
     <div class="row mb-5">
       <div class="col">
-        <div class="project-description">
+        <div class="project-description mx-2 my-5">
           <h2 class="mb-md-5 section-header">About me</h2>
-          <p class="text-justify">I am a UX Designer with an architectural background, currently expanding my role
+          <!-- <h2 class="mb-md-5 experience-title">Beata Dluzniewska · <span style="color: blue;">UX Designer |
+              Junior Software / Full Stack Developer</span>
+          </h2> -->
+          <p class="text-justify text-muted">I am a UX Designer with an architectural background, currently expanding my
+            role
             into software development.
             I have
             professional experience working on complex, system-oriented products in an aerospace environment and
@@ -71,14 +75,22 @@
             within
             technical, system-oriented products.
           </p>
-          <div class="logos-container mb-5">
-            <img src="images/boeing_logo.png" alt="logo" class="img-fluid mb-3" />
-            <img src="images/lpp_logo.png" alt="logo" class="img-fluid mb-3" />
-            <img src="images/behnisch_logo.png" alt="logo" class="img-fluid mb-3" />
-            <img src="images/wulf_logo.png" alt="logo" class="img-fluid mb-3" />
-            <img src="images/pg_logo.png" alt="logo" class="img-fluid mb-3" />
-            <img src="images/stutt_logo.png" alt="logo" class="img-fluid mb-3" />
+          <div class="my-5">
+            <h2 class="experience-title" style="color: blue;">Experience & Education:</h2>
+            <div class="logos-container my-3">
+              <img src="images/boeing_full_logo-01.svg" alt="Boeing logo" class="img-fluid mb-3"
+                title="UX Designer · 2023–present" />
+              <img src="images/lpp_logo-01.svg" alt="LPP logo" class="img-fluid mb-3" title="Architect · 2022–2023" />
+              <img src="images/behnisch_logo_b.png" alt="logo" class="img-fluid mb-3"
+                title="Junior Architect · 2021–2022" />
+              <img src="images/wulf_logo.svg" alt="logo" class="img-fluid mb-3" title="Inernship · 2019" />
+              <img src="images/gut-01.svg" alt="logo" class="img-fluid mb-3"
+                title="Programming & Databases (Backend Focus)" />
+              <img src="images/Uni_stuttgart_logo-01.svg" alt="logo" class="img-fluid mb-3"
+                title="Architecture Studies · Design & Technical Foundations" />
+            </div>
           </div>
+
           <a href="/#work" class="btn btn-branding mb-4">Check out my projects</a>
         </div>
       </div>
@@ -87,44 +99,87 @@
 
 
   <div class="container" id="work">
-    <h2 class="mb-md-5">Selected work</h2>
-    <div class="row mb-5">
-      <div class="col">
-        <div class="project-description">
-          <h2 class="mb-md-5">NoteBox – Task & Work Tracking Application</h2>
-          <p class="mb-md-5 text-muted">Spring Boot, PostgreSQL, React.js, Tailwind</p>
-          <a href="https://hilarious-fox-afac82.netlify.app/" class="btn btn-branding" target="_
-              _blank">See on GitHub</a>
-        </div>
-      </div>
-      <div class="col d-none d-lg-block"> <img src="images/notebox.png" class="img-fluid" alt="weather app" /> </div>
-    </div>
+    <h2 class="section-header mx-2 my-5">Selected work</h2>
 
-
-    <div class="row mb-5">
-      <div class="col d-none d-lg-block"> <img src="images/react-weather.jpg" class="img-fluid" alt="weather app" />
+    <div class="row mb-5 project-container">
+      <div class="col d-none d-lg-block"> <img src="images/react-weather 1.png" class="img-fluid project-img"
+          alt="weather app" />
       </div>
       <div class="col">
         <div class="project-description">
-          <h2 class="mb-md-5">React.js weather project</h2>
-          <p class="mb-md-5 text-muted">React.js, Java Script, HTML, CSS</p>
+          <h2 class="mb-md-5 project-title">Helpdesk Portal (Internal Product)</h2>
+          <p class="mb-md-5 text-muted">UX design for a mission-critical internal Helpdesk portal used daily by Boeing
+            employees. I led a comprehensive UX/UI
+            assessment of the existing Enterprise Helpdesk system in close collaboration with multiple teams, aligning
+            requirements,
+            constraints, and custom technical features before design began. The final solution supports complex support
+            flows,
+            dynamic content, permissions, and analytics within a highly structured internal platform.</p>
+          <p class="text-muted mb-md-5"><b style="color: #0000ff;">Stack:</b> Figma · HTML · CSS · JavaScript ·
+            JavaScript
+            APIs · Internal Platform Backend · Photoshop</p>
           <a href="https://resonant-biscuit-6ff663.netlify.app/" class="btn btn-branding" target="_
-              _blank">Launch react weather app</a>
+                  _blank"><i class="fa-brands fa-figma"></i> See Figma mockup (internal access)</a>
         </div>
       </div>
     </div>
 
-    <div class="row mb-5">
+    <div class="row mb-5 project-container">
+      <div class="col">
+        <div class="project-description mx-2 ">
+          <h2 class="mb-md-5 project-title">NoteBox – Task & Work Tracking Application</h2>
+          <p class="mb-md-5 text-muted">A full stack web application designed to manage task lists and tasks with
+            priorities, deadlines, and progress tracking.
+            I implemented the backend using Java and Spring Boot with a relational database, and built a responsive
+            frontend in
+            React, focusing on clear data structures, CRUD operations, and usability. The project was developed
+            iteratively,
+            starting from an MVP and expanded with search, filtering, sorting, and progress visualization features.</p>
+          <p class="text-muted mb-md-5"><b style="color: blue;">Stack:</b> Java · Spring Boot · Spring Data JPA ·
+            PostgreSQL · React · REST API · Docker · HTML · CSS</p>
+          <a href="https://hilarious-fox-afac82.netlify.app/" class="btn btn-branding" target="_
+              _blank"><i class="fa-brands fa-github"></i> See on GitHub</a>
+        </div>
+      </div>
+      <div class="col d-none d-lg-block"> <img src="images/notebox.png" class="img-fluid project-img"
+          alt="weather app" /> </div>
+    </div>
+
+    <div class="row mb-5 project-container">
+      <div class="col d-none d-lg-block"> <img src="images/react-weather 1.png" class="img-fluid project-img"
+          alt="weather app" />
+      </div>
       <div class="col">
         <div class="project-description">
-          <h2 class="mb-md-5">Weather forecast project</h2>
+          <h2 class="mb-md-5 project-title">React.js weather project</h2>
+          <p class="mb-md-5 text-muted">A responsive weather application built with React and vanilla JavaScript,
+            integrating the OpenWeatherMap API. It
+            supports city search, real-time weather data, unit conversion without reload, and extended five-day
+            forecasting in the
+            React version.
+          <p class="text-muted mb-md-5"><b style="color: blue;">Stack:</b> React · JavaScript · HTML · CSS ·
+            OpenWeatherMap API</p>
+          </p>
+          <a href="https://resonant-biscuit-6ff663.netlify.app/" class="btn btn-branding me-2" target="_
+              _blank"><i class="fa-brands fa-react"></i> Launch React.js weather app</a>
+          <a href="https://hilarious-fox-afac82.netlify.app/" class="btn btn-branding" target="_
+                                  _blank"><i class="fa-brands fa-js"></i> Launch JS weather app</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row mb-5 project-container">
+      <div class="col">
+        <div class="project-description">
+          <h2 class="mb-md-5 project-title">Weather forecast project</h2>
           <p class="mb-md-5 text-muted">HTML, CSS, Java Script</p>
           <a href="https://hilarious-fox-afac82.netlify.app/" class="btn btn-branding" target="_
           _blank">Launch weather forecast app</a>
         </div>
       </div>
-      <div class="col d-none d-lg-block"> <img src="images/weather.jpg" class="img-fluid" alt="weather app" /> </div>
-    </div>
+      <div class="col d-none d-lg-block"> <img src="images/js-weather.png" class="img-fluid project-img"
+          alt="weather app" /> </div>
+    </div> -->
 
 
     <!-- <div class="row mb-5">
@@ -139,47 +194,89 @@
       </div>
     </div> -->
 
-    <div class="row mb-5">
-      <div class="col d-none d-lg-block"> <img src="images/portfolio.jpg" class="img-fluid"
-          alt="architectural portfolio" /> </div>
+    <div class="row mb-5 project-container">
+
       <div class="col">
         <div class="project-description">
-          <h2 class="mb-md-5">Selected Architecture Projects</h2>
+          <h2 class="mb-md-5 project-title">Selected Architecture Projects</h2>
           <p class="mb-md-5 text-muted">A selection of architectural projects showcasing visual communication,
-            structured case studies, and design process.</p>
+            structured case studies, and a clear design
+            process. The collection includes academic work completed during my studies, including diploma projects and
+            selected
+            projects from the University of Stuttgart and Gdańsk University of Technology, presented to highlight my
+            graphic and
+            aesthetic sensibility.</p>
           <a href="https://www.behance.net/gallery/241428875/Architecture-Portfolio-Beata-Dluzniewska"
-            class="btn btn-branding" target="_blank">Launch architectural portfolio</a>
+            class="btn btn-branding" target="_blank"><i class="fa-brands fa-square-behance"></i> Launch architectural
+            portfolio</a>
+        </div>
+      </div>
+      <div class="col d-none d-lg-block"> <img src="images/portfolio.png" class="img-fluid project-img"
+          alt="architectural portfolio" /> </div>
+    </div>
+
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description mx-2 my-5">
+            <h2 class="mb-md-5 section-header">More projects in progress</h2>
+            <!-- <h2 class="mb-md-5 experience-title">Beata Dluzniewska · <span style="color: blue;">UX Designer |
+                    Junior Software / Full Stack Developer</span>
+                </h2> -->
+            <p class="text-justify">I’m continuously working on new projects and improving existing ones. Additional
+              selected work will be added here over time.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-
-    <footer>
-      <div class="contact-footer d-flex justify-content-between align-items-center mb-5 d-none d-md-flex">
-        <div>
+  <div class="content contact-section py-3" id="contact">
+    <div class="container">
+      <h1 class="mb-5">Let's get in touch!</h1>
+      <div class="contact row justify-content-between align-items-center ">
+        <div class="col">
           <h3>Work Inquiry</h3>
           <p>
-            Let's work together!
+            Let's work together!</br>Contact me via email or social media
           </p>
         </div>
-        <div>
-          <a href="mailto:dluzniewska.b@gmail.com" title="email">dluzniewska.b@gmail.com</a>
+        <div class="col">
+          <a href="mailto:dluzniewska.b@gmail.com">dluzniewska.b@gmail.com</a>
         </div>
       </div>
-      <div class="contact-me m-3">
-        <a href="mailto:dluzniewska.b@gmail.com" target="_blank" class="social-link d-md-none"><i
-            class="fa-solid fa-envelope"></i></a>
-        <a href="https://github.com/beatadluzniewska" target="_blank" class=" social-link"><i
-            class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/beata-d%C5%82u%C5%BCniewska-4630ba168/" target="_blank"
-          class="social-link"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-      <p class="credits">Coded by Beata Dluzniewska, this project is <a
-          href="https://github.com/beatadluzniewska/Portfolio-project" title="github repository"
-          target="_blank">open-sourced</a></p>
-    </footer>
-
+    </div>
   </div>
+
+
+  <footer>
+    <!-- <div class="contact-footer d-flex justify-content-between align-items-center mb-5 d-none d-md-flex">
+              <div>
+                <h3>Work Inquiry</h3>
+                <p>
+                  Let's work together!
+                </p>
+              </div>
+              <div>
+                <a href="mailto:dluzniewska.b@gmail.com" title="email">dluzniewska.b@gmail.com</a>
+              </div>
+            </div> -->
+    <div class="contact-me m-3">
+      <a href="https://www.linkedin.com/in/beata-d%C5%82u%C5%BCniewska-4630ba168/" target="_blank"
+        class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/beatadluzniewska" target="_blank" class=" social-link"><i
+          class="fa-brands fa-github"></i></a>
+      <a href="https://www.behance.net/beatadluzniewska" target="_blank" class=" social-link"><i
+          class="fa-brands fa-square-behance"></i></a>
+      <a href="mailto:dluzniewska.b@gmail.com" target="_blank" class="social-link"><i
+          class="fa-solid fa-envelope"></i></a>
+
+    </div>
+    <p class="credits">Coded by Beata Dluzniewska, this project is <a
+        href="https://github.com/beatadluzniewska/Portfolio-project" title="github repository"
+        target="_blank">open-sourced</a></p>
+  </footer>
   <script src="src/app.js"></script>
 </body>
 
