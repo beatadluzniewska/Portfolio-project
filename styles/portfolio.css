@@ -353,7 +353,8 @@ footer .credits a {
         font-size: 18px;
     }
     .project-description,
-    .content-container {
+    .content-container,
+    .contact-section {
         padding: 0;
         text-align: center;
     }
@@ -375,7 +376,8 @@ footer .credits a {
     }
     .btn-branding,
     .btn-branding-outline,
-    .btn-branding-outline-header {
+    .btn-branding-outline-header,
+    .btn-branding-outline-header-blue {
         font-size: 14px;
         margin-bottom: 15px;
     }
