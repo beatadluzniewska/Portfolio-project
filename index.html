@@ -45,7 +45,10 @@
         <p>I am <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
       </div>
     </h2>
-    <a href="/#contact" class="btn btn-branding-outline-header">contact me </a>
+    <div class="button-container"><a href="/#contact" class="btn btn-branding-outline-header "><i
+          class="fa-regular fa-message"></i> contact me </a> <a href="/#work"
+        class="btn btn-branding-outline-header-blue"><i class="fa-solid fa-lines-leaning"></i> my projects</a></div>
+
   </div>
 
   <div class="container" id="about-me">
@@ -56,7 +59,8 @@
           <!-- <h2 class="mb-md-5 experience-title">Beata Dluzniewska · <span style="color: blue;">UX Designer |
               Junior Software / Full Stack Developer</span>
           </h2> -->
-          <p class="text-justify text-muted">I am a UX Designer with an architectural background, currently expanding my
+          <p class="text-justify text-muted">I am a UX Designer with an architectural background, currently
+            expanding my
             role
             into software development.
             I have
@@ -75,28 +79,30 @@
             within
             technical, system-oriented products.
           </p>
-          <div class="my-5">
-            <h2 class="experience-title" style="color: blue;">Experience & Education:</h2>
-            <div class="logos-container my-3">
-              <img src="images/boeing_full_logo-01.svg" alt="Boeing logo" class="img-fluid mb-3"
-                title="UX Designer · 2023–present" />
-              <img src="images/lpp_logo-01.svg" alt="LPP logo" class="img-fluid mb-3" title="Architect · 2022–2023" />
-              <img src="images/behnisch_logo_b.png" alt="logo" class="img-fluid mb-3"
-                title="Junior Architect · 2021–2022" />
-              <img src="images/wulf_logo.svg" alt="logo" class="img-fluid mb-3" title="Inernship · 2019" />
-              <img src="images/gut-01.svg" alt="logo" class="img-fluid mb-3"
-                title="Programming & Databases (Backend Focus)" />
-              <img src="images/Uni_stuttgart_logo-01.svg" alt="logo" class="img-fluid mb-3"
-                title="Architecture Studies · Design & Technical Foundations" />
+
+          <div class="project-description mx-2 my-5">
+            <div class="my-5">
+              <hr>
+              <h2 class="experience-title mb-5 text-muted" style="text-align: center;">Experience & Education:</h2>
+              <div class="logos-container my-3">
+                <img src="images/boeing_full_logo-01.svg" alt="Boeing logo" class="img-fluid mb-3 "
+                  title="UX Designer · 2023–present" />
+                <img src="images/lpp_logo-01.svg" alt="LPP logo" class="img-fluid mb-3" title="Architect · 2022–2023" />
+                <img src="images/behnisch_logo_b.png" alt="Behnisch logo" class="img-fluid mb-3"
+                  title="Junior Architect · 2021–2022" />
+                <img src="images/wulf_logo.svg" alt="logo" class="img-fluid mb-3" title="Inernship · 2019" />
+                <img src="images/gut-01.svg" alt="logo" class="img-fluid mb-3"
+                  title="Programming & Databases (Backend Focus)" />
+                <img src="images/Uni_stuttgart_logo-01.svg" alt="logo" class="img-fluid mb-3"
+                  title="Architecture Studies · Design & Technical Foundations" />
+              </div>
+              <hr>
             </div>
           </div>
-
-          <a href="/#work" class="btn btn-branding mb-4">Check out my projects</a>
         </div>
       </div>
     </div>
   </div>
-
 
   <div class="container" id="work">
     <h2 class="section-header mx-2 my-5">Selected work</h2>
@@ -215,68 +221,62 @@
           alt="architectural portfolio" /> </div>
     </div>
 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description mx-2 my-5">
-            <h2 class="mb-md-5 section-header">More projects in progress</h2>
-            <!-- <h2 class="mb-md-5 experience-title">Beata Dluzniewska · <span style="color: blue;">UX Designer |
+
+    <div class="project-description my-5">
+      <h2 class="mb-md-5 section-header">More projects in progress</h2>
+      <!-- <h2 class="mb-md-5 experience-title">Beata Dluzniewska · <span style="color: blue;">UX Designer |
                     Junior Software / Full Stack Developer</span>
                 </h2> -->
-            <p class="text-justify">I’m continuously working on new projects and improving existing ones. Additional
-              selected work will be added here over time.
-            </p>
-          </div>
-        </div>
-      </div>
+      <p class="text-justify">I’m continuously working on new projects and improving existing ones. Additional
+        selected work will be added here over time.
+      </p>
     </div>
   </div>
 
-  <div class="content contact-section py-3" id="contact">
+  <div class="contact-section py-3" id="contact">
     <div class="container">
-      <h1 class="mb-5">Let's get in touch!</h1>
-      <div class="contact row justify-content-between align-items-center ">
-        <div class="col">
-          <h3>Work Inquiry</h3>
-          <p>
-            Let's work together!</br>Contact me via email or social media
-          </p>
-        </div>
-        <div class="col">
-          <a href="mailto:dluzniewska.b@gmail.com">dluzniewska.b@gmail.com</a>
-        </div>
+      <h1 class="my-4">Let's get in touch!</h1>
+      <div class="contact justify-content-between align-items-center ">
+        <p class="text-justify">
+          For work inquiries or collaboration, feel free to contact me via email <span class="copy-email"
+            data-email="dluzniewska.b@gmail.com">(<i class="fa-regular fa-copy copy-icon" aria-hidden="true"></i>
+            dluzniewska.b@gmail.com)</span> or
+          social
+          media.
+        </p>
+        <!-- <a href="mailto:dluzniewska.b@gmail.com">dluzniewska.b@gmail.com</a> -->
       </div>
+      <footer>
+        <!-- <div class="contact-footer d-flex justify-content-between align-items-center mb-5 d-none d-md-flex">
+                    <div>
+                      <h3>Work Inquiry</h3>
+                      <p>
+                        Let's work together!
+                      </p>
+                    </div>
+                    <div>
+                      <a href="mailto:dluzniewska.b@gmail.com" title="email">dluzniewska.b@gmail.com</a>
+                    </div>
+                  </div> -->
+        <div class="contact-me">
+          <a href="mailto:dluzniewska.b@gmail.com" target="_blank" class="social-link"><i
+              class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/beata-d%C5%82u%C5%BCniewska-4630ba168/" target="_blank"
+            class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/beatadluzniewska" target="_blank" class=" social-link"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.behance.net/beatadluzniewska" target="_blank" class=" social-link"><i
+              class="fa-brands fa-square-behance"></i></a>
+        </div>
+        <p class="credits">Coded by Beata Dluzniewska, this project is <a
+            href="https://github.com/beatadluzniewska/Portfolio-project" title="github repository"
+            target="_blank">open-sourced</a></p>
+      </footer>
     </div>
   </div>
 
 
-  <footer>
-    <!-- <div class="contact-footer d-flex justify-content-between align-items-center mb-5 d-none d-md-flex">
-              <div>
-                <h3>Work Inquiry</h3>
-                <p>
-                  Let's work together!
-                </p>
-              </div>
-              <div>
-                <a href="mailto:dluzniewska.b@gmail.com" title="email">dluzniewska.b@gmail.com</a>
-              </div>
-            </div> -->
-    <div class="contact-me m-3">
-      <a href="https://www.linkedin.com/in/beata-d%C5%82u%C5%BCniewska-4630ba168/" target="_blank"
-        class="social-link"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/beatadluzniewska" target="_blank" class=" social-link"><i
-          class="fa-brands fa-github"></i></a>
-      <a href="https://www.behance.net/beatadluzniewska" target="_blank" class=" social-link"><i
-          class="fa-brands fa-square-behance"></i></a>
-      <a href="mailto:dluzniewska.b@gmail.com" target="_blank" class="social-link"><i
-          class="fa-solid fa-envelope"></i></a>
 
-    </div>
-    <p class="credits">Coded by Beata Dluzniewska, this project is <a
-        href="https://github.com/beatadluzniewska/Portfolio-project" title="github repository"
-        target="_blank">open-sourced</a></p>
-  </footer>
   <script src="src/app.js"></script>
 </body>
 

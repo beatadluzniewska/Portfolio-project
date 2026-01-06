@@ -47,3 +47,18 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () {
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+document.querySelectorAll(".copy-email").forEach((el) => {
+    el.addEventListener("click", async () => {
+        try {
+            await navigator.clipboard.writeText(el.dataset.email);
+            el.classList.add("copied");
+
+            setTimeout(() => {
+                el.classList.remove("copied");
+            }, 1500);
+        } catch (err) {
+            console.error("Copy failed", err);
+        }
+    });
+});
