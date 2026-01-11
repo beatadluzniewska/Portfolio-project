@@ -45,7 +45,7 @@ p {
 .hero {
     background: radial-gradient(
         circle,
-        rgba(239, 239, 239) 10%,
+        #efefef 10%,
         rgba(255, 255, 255, 1) 100%
     );
     text-align: center;
